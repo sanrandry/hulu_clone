@@ -1,0 +1,69 @@
+.hero {
+    height: 530px;
+    background: url(/ckbvd0gyz00xg19mlsu9nayv7-homepage-masthead-test-desktop-3200x1320-v4c-6-16-20.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 40px;
+    .nav__login-btn {
+        border: none;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+        background: none;
+        letter-spacing: 1px;
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    width: 270px;
+    margin: 20px 0;
+}
+
+.content__text-1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.content__text-2 {
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+.btn__action {
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.legal-text {
+    font-size: 10px;
+    color: #ccc;
+    margin-top: 20px;
+}
+.try-text {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 220px;;
+    }
+    .hero {
+        text-align: center;
+    }
+}
+

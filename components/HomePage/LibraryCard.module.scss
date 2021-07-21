@@ -1,0 +1,43 @@
+.card {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.card__body{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    .card__body__meta {
+        font-size: 16px;
+    }
+    .card__body__title {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 16px;
+    }
+}
+
+.card__img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.hoverlay {
+    position: absolute;
+    top: 0;
+    background: linear-gradient(
+            156.82deg,
+            rgba(0, 0, 0, 0.6) 4.58%,
+            rgba(0, 0, 0, 0) 69.61%
+        ),
+        linear-gradient(
+            24.5deg,
+            rgba(0, 0, 0, 0.2) 4.71%,
+            rgba(0, 0, 0, 0) 71.49%
+        );
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
